@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+*{
+    font-family:"Libre Caslon Text", Geneva, Tahoma, sans-serif ;
+}
+
+body {
+    max-width: 500px;
+    margin: 30px auto;
+    padding: 20px;
+    background-color: white; 
+    background-image: url(559400zBdtHFPl.gif);
+    height: 700px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hidden{
+    display: none;
+}
+
+h1{
+    font-size: 30px;
+}
+
+.game {
+    background-color:rgb(215, 204, 197) ;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    color: rgb(11, 56, 11);
+}
+
+.instructions {
+    color: rgb(11, 56, 11);
+    margin-bottom: 20px;
+    background-color: rgb(215, 204, 197);
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: rgb(11, 56, 11);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 50%;
+}
+
+button:hover {
+    background-color: rgb(5, 23, 5);
+    color: white;
+}
+
+#resetName {
+    margin-top: 10px;
+background-color: lightblue;
+width: 50%;
+}
+
+#resetName:hover {
+    background-color: rgb(76, 193, 231);
+}
+
+#guess {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 10px;
+    width: 50%;
+}
