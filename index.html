@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animal Guessing Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <section class="instructions">
+    <h1>How To Play</h1>
+    <p>I'm thinking of an animal. Can you guess it?</p> 
+    <p>The first letter of the word will be provided. </p>
+    <p>If you need help press the "hint" button</p>
+    </section>
+    
+    <div class="game">
+      <h1>Wild Guess!</h1>
+      <p id="letterconatiner" class="hidden">First Letter Starts With: <span id="letter"></span></p>
+      <p id = "incorrect" class="hidden">Incorrect! Try Again!</p>
+      <p id="wrong" class="hidden">The Answer was: <span id="animalcorrect"></p>
+      <p id = "correct" class="hidden">Correct! You guessed the animal</p>
+      <input type="text" id="guess" placeholder="Enter your guess"> 
+      <br>
+      <button onclick="checkGuess()">Submit Guess</button> 
+      <button onclick="giveHint()">Hint!</button> 
+      <button id="playAgain" class="hidden" onclick="resetGame()">Play Again</button>
+    </div>
+
+    
+
+    <script src="script2.js"></script>
+   
+</body>
+</html>
